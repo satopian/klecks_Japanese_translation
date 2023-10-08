@@ -413,7 +413,7 @@
   'file-import': {
     hint: 'action',
     original: 'Import',
-    value: '配置'
+    value: '開く'
   },
   'file-save': {
     hint: 'action',
@@ -1256,11 +1256,11 @@
   },
   'text-text': {
     original: 'Text',
-    value: ''
+    value: 'テキスト'
   },
   'text-font': {
     original: 'Font',
-    value: ''
+    value: 'フォント'
   },
   'text-placeholder': {
     hint: 'placeholder in text input.',
@@ -1277,11 +1277,11 @@
   },
   'text-line-height': {
     original: 'Line Height',
-    value: ''
+    value: '高さ'
   },
   'text-letter-spacing': {
     original: 'Letter Spacing',
-    value: ''
+    value: '間隔'
   },
   'text-left': {
     hint: 'left, center, right text formatting like in Word',
