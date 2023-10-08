@@ -1277,11 +1277,11 @@
   },
   'text-line-height': {
     original: 'Line Height',
-    value: '高さ'
+    value: '行間'
   },
   'text-letter-spacing': {
     original: 'Letter Spacing',
-    value: '間隔'
+    value: '字間'
   },
   'text-left': {
     hint: 'left, center, right text formatting like in Word',
