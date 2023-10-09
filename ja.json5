@@ -413,7 +413,7 @@
   'file-import': {
     hint: 'action',
     original: 'Import',
-    value: '開く'
+    value: '読み込み'
   },
   'file-save': {
     hint: 'action',
