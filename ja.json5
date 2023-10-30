@@ -265,7 +265,11 @@
     original: 'Merge with layer below',
     value: '下のレイヤーと結合'
   },
-  'layers-rename': {
+   'layers-merge-all': {
+    original: 'Merge all',
+    value: 'すべて結合'
+  },
+ 'layers-rename': {
     hint: 'action',
     original: 'Rename',
     value: 'リネーム'
@@ -1382,7 +1386,31 @@
     original: 'Theme',
     value: 'テーマ'
   },
-  'theme-dark': {
+   'settings-save-reminder-label': {
+    original: 'Save Reminder',
+    value: 'リマインダー'
+  },
+  'settings-save-reminder-disabled': {
+    original: 'disabled',
+    value: '無効化'
+  },
+  'settings-save-reminder-confirm-title': {
+    original: 'Turn off Save Reminder?',
+    value: 'リマインダーをオフにしますか?'
+  },
+  'settings-save-reminder-confirm-a': {
+    original: "There is no autosave and browser tabs don't last forever. If you don't periodically save you will likely lose work.",
+    value: '自動保存機能はありません。定期的に保存しないと、作業が失われる可能性があります。'
+  },
+  'settings-save-reminder-confirm-b': {
+    original: 'Disable at your own risk?',
+    value: '自己責任で無効にしますか?'
+  },
+  'settings-save-reminder-confirm-disable': {
+    original: 'Disable',
+    value: '無効化'
+  },
+ 'theme-dark': {
     original: 'Dark',
     value: 'ダーク'
   },
@@ -1521,6 +1549,10 @@
   },
   loading: {
     original: 'Loading',
+    value: ''
+  },
+  more: {
+    original: 'More',
     value: ''
   }
 }
