@@ -1553,6 +1553,6 @@
   },
   more: {
     original: 'More',
-    value: ''
+    value: 'さらに'
   }
 }
