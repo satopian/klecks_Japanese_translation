@@ -549,7 +549,7 @@
   filled: {
     hint: 'layer got filled with a color',
     original: 'Filled',
-    value: 'Filled'
+    value: '塗り潰し'
   },
   'new-title': {
     original: 'New Image',
@@ -1392,7 +1392,7 @@
   },
   'settings-save-reminder-disabled': {
     original: 'disabled',
-    value: '無効化'
+    value: '無効'
   },
   'settings-save-reminder-confirm-title': {
     original: 'Turn off Save Reminder?',
@@ -1549,10 +1549,14 @@
   },
   loading: {
     original: 'Loading',
-    value: ''
+    value: 'Loading'
   },
   more: {
     original: 'More',
     value: 'もっと'
+  },
+  'x-minutes': {
+    original: '{x}min',
+    value: '分'
   }
 }
