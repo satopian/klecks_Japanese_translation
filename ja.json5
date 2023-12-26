@@ -1557,6 +1557,6 @@
   },
   'x-minutes': {
     original: '{x}min',
-    value: '分'
+    value: '{x}分'
   }
 }
