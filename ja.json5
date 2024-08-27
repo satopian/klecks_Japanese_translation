@@ -66,6 +66,10 @@
     original: 'Hand Tool',
     value: '手のひらツール'
   },
+  'tool-select': {
+    original: 'Select Tool',
+    value: '選択ツール'
+  },
   'tool-zoom': {
     original: 'Zoom',
     value: 'ズーム'
@@ -265,11 +269,11 @@
     original: 'Merge with layer below',
     value: '下のレイヤーと結合'
   },
-   'layers-merge-all': {
+  'layers-merge-all': {
     original: 'Merge all',
     value: 'すべて結合'
   },
- 'layers-rename': {
+  'layers-rename': {
     hint: 'action',
     original: 'Rename',
     value: 'リネーム'
@@ -546,10 +550,18 @@
     original: 'Cleared layer',
     value: 'レイヤーをクリアしました。'
   },
+  'cleared-selected-area': {
+    original: 'Cleared selected area',
+    value: '選択範囲を消去しました。'
+  },
   filled: {
     hint: 'layer got filled with a color',
     original: 'Filled',
-    value: '塗り潰し'
+    value: '塗り潰しました。'
+  },
+  'filled-selected-area': {
+    original: 'Filled selection',
+    value: '選択範囲を塗りつぶしました。'
   },
   'new-title': {
     original: 'New Image',
@@ -1225,7 +1237,7 @@
   'shape-rect': {
     hint: 'rectangle shape',
     original: 'Rectangle',
-    value: '矩形'
+    value: '長方形'
   },
   'shape-ellipse': {
     hint: 'ellipse shape',
@@ -1307,6 +1319,74 @@
   'text-bold': {
     original: 'Bold',
     value: '太字'
+  },
+  'select-select': {
+    original: 'Select',
+    value: '選択'
+  },
+  'select-transform': {
+    original: 'Transform',
+    value: '変形'
+  },
+  'select-lasso': {
+    original: 'Lasso',
+    value: '投げ縄'
+  },
+  'select-polygon': {
+    original: 'Polygon',
+    value: '多角形'
+  },
+  'select-boolean-replace': {
+    original: 'Replace',
+    value: '入れ替え'
+  },
+  'select-boolean-add': {
+    original: 'Add',
+    value: '追加'
+  },
+  'select-boolean-subtract': {
+    original: 'Subtract',
+    value: '除外'
+  },
+  'select-all': {
+    original: 'All',
+    value: '全体'
+  },
+  'select-invert': {
+    original: 'Invert',
+    value: '反転'
+  },
+  'select-reset': {
+    original: 'Reset',
+    value: 'リセット'
+  },
+  'select-fill': {
+    original: 'Fill',
+    value: '塗り潰し'
+  },
+  'select-erase': {
+    original: 'Erase',
+    value: '消去'
+  },
+  'select-transform-clone': {
+    original: 'Clone',
+    value: '複製'
+  },
+  'select-transform-clone-applied': {
+    original: 'Cloned',
+    value: '複製しました。'
+  },
+  'select-transform-move-to-layer': {
+    original: 'Move to layer:',
+    value: 'レイヤー間移動'
+  },
+  'select-transform-applied': {
+    original: 'Transformation applied',
+    value: '変形を確定しました。'
+  },
+  'select-transform-empty': {
+    original: 'Selected area on active layer is empty.',
+    value: 'レイヤーが空です。'
   },
   'save-reminder-title': {
     hint: 'Save Reminder is a popup that shows up after 20 minutes of not saving. Allows user to save on the spot.',
@@ -1410,7 +1490,7 @@
     original: 'Disable',
     value: '無効化'
   },
- 'theme-dark': {
+  'theme-dark': {
     original: 'Dark',
     value: 'ダーク'
   },
@@ -1558,5 +1638,9 @@
   'x-minutes': {
     original: '{x}min',
     value: '{x}分'
+  },
+  wip: {
+    original: 'Work in progress',
+    value: '操作中'
   }
 }
