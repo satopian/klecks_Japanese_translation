@@ -552,7 +552,7 @@
   },
   'cleared-selected-area': {
     original: 'Cleared selected area',
-    value: '選択範囲を消去しました。'
+    value: '消去しました。'
   },
   filled: {
     hint: 'layer got filled with a color',
@@ -561,7 +561,7 @@
   },
   'filled-selected-area': {
     original: 'Filled selection',
-    value: '選択範囲を塗りつぶしました。'
+    value: '塗り潰しました。'
   },
   'new-title': {
     original: 'New Image',
