@@ -1338,7 +1338,7 @@
   },
   'select-boolean-replace': {
     original: 'Replace',
-    value: '入れ替え'
+    value: '新規'
   },
   'select-boolean-add': {
     original: 'Add',
