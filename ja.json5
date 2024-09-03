@@ -1641,6 +1641,14 @@
   },
   wip: {
     original: 'Work in progress',
-    value: '工事中'
+    value: '開発中'
+  },
+  'browser-zoom-help': {
+    original: 'Double-tap or pinch-out to reset browser zoom.',
+    value: 'ダブルタップまたはピンチアウトでズームをリセット。'
+  },
+  dismiss: {
+    original: 'Dismiss',
+    value: '閉じる'
   }
 }
