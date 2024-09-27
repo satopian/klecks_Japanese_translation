@@ -1326,7 +1326,7 @@
   },
   'select-transform': {
     original: 'Transform',
-    value: '移動'
+    value: '変換'
   },
   'select-lasso': {
     original: 'Lasso',
@@ -1382,7 +1382,7 @@
   },
   'select-transform-applied': {
     original: 'Transformation applied',
-    value: '移動を確定しました。'
+    value: '変換を確定しました。'
   },
   'select-transform-empty': {
     original: 'Selected area on active layer is empty.',
