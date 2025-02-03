@@ -74,6 +74,11 @@
     original: 'Zoom',
     value: 'ズーム'
   },
+  'tool-more-tools': {
+    hint: 'when hovering the caret on the tool button',
+    original: 'More Tools',
+    value: 'もっと'
+  },
   undo: {
     original: 'Undo',
     value: 'アンドゥ'
@@ -268,6 +273,11 @@
     hint: 'action',
     original: 'Merge with layer below',
     value: '下のレイヤーと結合'
+  },
+  'layers-clear': {
+    hint: 'to make a layer empty',
+    original: 'Clear layer',
+    value: '消去'
   },
   'layers-merge-all': {
     original: 'Merge all',
@@ -479,6 +489,10 @@
   'file-storage-clear': {
     original: 'Clear',
     value: '削除'
+  },
+  'file-storage-clear-prompt': {
+    original: 'Clear Browser Storage?',
+    value: 'ブラウザストレージを消去しますか?'
   },
   'file-storage-storing': {
     hint: 'while it is in the process of storing',
@@ -1082,6 +1096,19 @@
     original: 'Lines',
     value: '線の数'
   },
+  'dropper-drop': {
+    hint: 'as in, drag and drop a file',
+    original: 'Drop to import',
+    value: 'ドラッグして読み込み'
+  },
+  'dropper-as-image': {
+    original: 'As New Image',
+    value: '画像として'
+  },
+  'dropper-as-layer': {
+    original: 'As Layer',
+    value: 'レイヤーとして'
+  },
   'import-opening': {
     hint: 'in the process of opening a large file',
     original: 'Opening file...',
@@ -1165,6 +1192,11 @@
     hint: 'makes canvas cover whole working area',
     original: 'Fit',
     value: 'フィット'
+  },
+  'hand-inertia-scrolling': {
+    hint: 'Canvas will continue to move even after releasing pointer.',
+    original: 'Inertia Scrolling',
+    value: '慣性スクロール'
   },
   'bucket-tolerance': {
     hint: 'a common feature for paint bucket',
@@ -1466,7 +1498,7 @@
     original: 'Theme',
     value: 'テーマ'
   },
-   'settings-save-reminder-label': {
+  'settings-save-reminder-label': {
     original: 'Save Reminder',
     value: 'リマインダー'
   },
