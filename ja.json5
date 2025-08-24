@@ -470,11 +470,6 @@
     original: 'Browser Storage',
     value: 'ブラウザストレージ'
   },
-  'file-storage-thumb-title': {
-    hint: 'when reopening or reloading',
-    original: 'Restores when reopening page',
-    value: '再読み込み時に復元します。'
-  },
   'file-storage-about': {
     hint: 'link to Browser Storage help/user manual',
     original: 'About Browser Storage',
@@ -482,8 +477,8 @@
   },
   'file-storage-cant-access': {
     hint: 'an error. Can’t access the storage.',
-    original: "Can't access",
-    value: 'アクセスできません。'
+    original: "Can't access storage.",
+    value: 'ストレージにアクセスできません。'
   },
   'file-storage-empty': {
     hint: 'nothing stored',
@@ -495,13 +490,26 @@
     original: 'Store',
     value: '保管'
   },
+  'file-storage-open': {
+    hint: 'verb. to open, or to load',
+    original: 'Open',
+    value: '開く'
+  },
+  'file-storage-open-confirmation': {
+    original: 'This image is already open in another tab. Open it here too?',
+    value: 'この画像はすでに他のタブで開かれています。現在のタブでも開きますか？'
+  },
+  'file-storage-open-failed': {
+    original: 'Failed to load.',
+    value: '読み込みに失敗しました。'
+  },
   'file-storage-clear': {
     original: 'Clear',
     value: '削除'
   },
   'file-storage-clear-prompt': {
-    original: 'Clear Browser Storage?',
-    value: 'ブラウザストレージを消去しますか?'
+    original: 'Clear Browser Storage? Clearing can not be undone.',
+    value: 'ブラウザストレージを消去しますか?この操作は元に戻せません。'
   },
   'file-storage-storing': {
     hint: 'while it is in the process of storing',
@@ -512,6 +520,10 @@
     hint: 'overwrite what is already stored',
     original: 'Overwrite',
     value: '上書き'
+  },
+  'file-storage-overwrite-confirm': {
+    original: 'Overwrite Browser Storage? Overwritten data will be permanently deleted.',
+    value: 'ブラウザのストレージを上書きしますか？ 上書きされたデータは復元できません。'
   },
   'file-storage-min-ago': {
     hint: "{x} <- needs to stay, it's a placeholder.",
@@ -567,6 +579,43 @@
     hint: 'verb',
     original: 'Upload',
     value: 'アップロード'
+  },
+  'tab-recovery-recover-tabs': {
+    hint: 'allows user to recover browser tabs (including the drawing) of this app.',
+    original: 'Recover closed tabs',
+    value: '閉じたタブを復元'
+  },
+  'tab-recovery-explanation': {
+    original: 'Recovery data is only kept for a little while. Save to ensure your work is not lost.',
+    value: '復元データは短時間しか保持されません。作業が失われないよう必ず保存してください。'
+  },
+  'tab-recovery-total-quota-label': {
+    original: 'Total:',
+    value: '合計'
+  },
+  'tab-recovery-empty': {
+    original: 'Nothing to recover.',
+    value: '復元可能なデータがありません。'
+  },
+  'tab-recovery-recover': {
+    original: 'Recover',
+    value: '復元'
+  },
+  'tab-recovery-delete': {
+    original: 'Delete',
+    value: '削除'
+  },
+  'tab-recovery-delete-confirmation': {
+    original: 'Delete this recovery? Deletion can not be undone.',
+    value: '復元データを削除しますか？ この操作は元に戻せません。'
+  },
+  'tab-recovery-failed-to-recover': {
+    original: 'Failed to recover tab.',
+    value: 'タブの復元に失敗しました。'
+  },
+  'tab-recovery-recovered': {
+    original: 'Tab recovered.',
+    value: 'タブを復元しました。'
   },
   'cleared-layer': {
     hint: 'the layer has been cleared. It is now empty',
@@ -1496,10 +1545,6 @@
     hint: 'The app is loaded, but it’s still waiting for image',
     original: 'Waiting for image',
     value: '画像を読み込んでいます。'
-  },
-  unsaved: {
-    original: 'Unsaved',
-    value: '未保存'
   },
   help: {
     hint: 'or user manual',
