@@ -283,6 +283,10 @@
     original: 'Clear layer',
     value: '消去'
   },
+  'layers-merge-advanced': {
+    original: 'Advanced merge',
+    value: '高度な結合'
+  },
   'layers-merge-all': {
     original: 'Merge all',
     value: 'すべて結合'
@@ -1439,13 +1443,21 @@
     original: 'Bold',
     value: '太字'
   },
+  'text-failed-import': {
+    original: 'Failed to import the following files:',
+    value: 'ファイルのインポートに失敗しました:'
+  },
+  'text-supported-formats': {
+    original: 'Supported formats:',
+    value: 'サポートされている形式:'
+  },
   'select-select': {
     original: 'Select',
     value: '選択'
   },
   'select-transform': {
     original: 'Transform',
-    value: '変換'
+    value: '変形'
   },
   'select-lasso': {
     original: 'Lasso',
