@@ -1034,8 +1034,8 @@
   },
   'filter-applied': {
     hint: 'used like this: „Invert“ applied. Informs that a filter was applied',
-    original: 'applied',
-    value: '反転しました。'
+    original: '"{x}" applied',
+    value: '「{x}」 が適用されました'
   },
   'filter-tilt-shift-title': {
     hint: 'same as the button, but can be longer',
@@ -1501,7 +1501,7 @@
   },
   'select-transform-warp': {
     original: 'Warp',
-    value: 'ゆがみ'
+    value: 'メッシュ変形'
   },
   'select-transform-clone': {
     original: 'Clone',
