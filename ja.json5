@@ -625,6 +625,10 @@
     original: 'Tab recovered.',
     value: 'タブを復元しました。'
   },
+  'tab-recovery-restoring-session': {
+    original: 'Restoring your previous session...',
+    value: '前回のセッションを復元しています。'
+  },
   'cleared-layer': {
     hint: 'the layer has been cleared. It is now empty',
     original: 'Cleared layer',
@@ -1786,5 +1790,13 @@
   dismiss: {
     original: 'Dismiss',
     value: '閉じる'
+  },
+    error: {
+    original: 'Error',
+    value: 'エラー'
+  },
+  retry: {
+    original: 'Retry',
+    value: 'リトライ'
   }
 }
