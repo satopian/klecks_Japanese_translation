@@ -1601,6 +1601,10 @@
     original: 'Theme',
     value: 'テーマ'
   },
+  'settings-pixelated-zoom': {
+    original: 'Always pixelated zoom',
+    value: 'ズームのアンチエイリアスを無効化'
+  },
   'settings-save-reminder-label': {
     original: 'Save Reminder',
     value: 'リマインダー'
