@@ -308,6 +308,11 @@
     original: 'Layer Visibility',
     value: 'レイヤー表示/非表示'
   },
+  'layers-clipping': {
+    hint: 'tooltip for toggling whether the active layer is clipped to the layer below',
+    original: 'Clipping Mask',
+    value: 'クリッピング'
+  },
   'layers-blend-normal': {
     original: 'normal',
     value: '通常'
@@ -1192,6 +1197,14 @@
     hint: 'in the process of opening a large file',
     original: 'Opening file...',
     value: '画像を開いています。'
+  },
+ 'import-many-files-warning': {
+    original: 'You are about to import {x} files. Importing many files at once can cause instability.',
+    value: '{x} 個のファイルをインポートしようとしています。一度に多くのファイルをインポートすると、動作が不安定になる可能性があります。'
+  },
+  'import-many-files-confirm': {
+    original: 'Import {x} files',
+    value: '{x} 個のファイルをインポート'
   },
   'import-title': {
     original: 'Import Image',
